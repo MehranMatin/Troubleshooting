@@ -1,0 +1,14 @@
+var question = document.getElementsByClassName('faqQuestion');
+var answer = document.getElementsByClassName('faqAnswer');
+
+function toggleVisibility(answer) {
+    if (answer.className === 'hidden') {
+        answer.className = 'visible';
+    } else {
+        answer.className = 'hidden';
+    }
+}
+
+question.addEventListener('click', function() {
+    toggleVisibility(answer);
+})
