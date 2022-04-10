@@ -1,4 +1,5 @@
-// // Not Working
+// TEST CODE 1
+////////////////////
 // var question1 = document.getElementsByClassName('faqQuestion-1');
 // var answer1 = document.getElementsByClassName('faqAnswer-1');
 // function toggleVisibility1(answer1) {
@@ -13,8 +14,10 @@
 //     toggleVisibility1(answer1);
 // })
 
+//////////////////////////////////////////////////
 
-// Working
+// TEST CODE 2
+////////////////////
 var question2 = document.querySelectorAll('.faqQuestion-2');
 var answer2 = document.querySelectorAll('.faqAnswer-2');
 console.log(question2);
